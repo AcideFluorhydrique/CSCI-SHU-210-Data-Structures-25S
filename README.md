@@ -1,1 +1,1 @@
-# Data-Structures-NYUSH-2025Sprin-
+# Data-Structures-NYUSH-2025Spring
