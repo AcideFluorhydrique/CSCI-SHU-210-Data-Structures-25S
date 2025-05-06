@@ -9,9 +9,13 @@ class Matrix:
         self._cols = cols
         # 使用浮点数来存储，并取一位小数
 
-        idata = []
+        idata = [
+            
+        ]
         for _ in range(rows):
-            row = []
+            row = [
+                
+            ]
             for j in range(cols):
                 row.append(0.0)
             idata.append(row)
@@ -96,7 +100,10 @@ class Matrix:
 
             # 如果 other 不是方阵
             # 返回与 self 相同维度的全 1 矩阵
-            result = Matrix(self._rows, self._cols)
+            result = Matrix(
+                self._rows, 
+                self._cols,
+            )
             for r in range(self._rows):
                 for c in range(self._cols):
                     result.data[r][c] = 1.0
