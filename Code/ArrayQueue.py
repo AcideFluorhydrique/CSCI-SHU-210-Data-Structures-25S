@@ -1,4 +1,8 @@
-
+"""
+The ArrayQueue class is a circular queue implementation using a fixed-size array. 
+This class provides a simple but effective way to manage a queue of elements, 
+which follows the First-In-First-Out (FIFO) principle. 
+"""
 
 class ArrayQueue:
     DEFAULT_CAPACITY = 10
