@@ -190,9 +190,7 @@ def ast_dump_to_tree(ast_dump_str):
     
     TO Grader, I failed to finish this problem by my self, 
     so I do use ChatGPT and
-    I also look at Paul Huang(zh2919@nyu.edu)'s assignment code, 
-    https://en.wikipedia.org/wiki/Abstract_syntax_tree
-    ,and follow Python's document https://docs.python.org/zh-cn/3.13/library/ast.html
+    I also look follow Python's document https://docs.python.org/zh-cn/3.13/library/ast.html
     
     as references
     
