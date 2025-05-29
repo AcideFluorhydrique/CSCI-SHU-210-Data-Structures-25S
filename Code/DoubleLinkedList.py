@@ -1,3 +1,9 @@
+"""
+The DoubleLinkedList class implements a doubly linked list structure in Python. 
+In this structure, each node is linked both to its predecessor and successor, 
+allowing traversal in both directions.
+"""
+
 class DoubleLinkedList:
     class Node:
         def __init__(self, element = None, prev = None, next = None):
