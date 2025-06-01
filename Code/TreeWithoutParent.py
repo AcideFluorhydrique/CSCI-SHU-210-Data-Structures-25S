@@ -1,5 +1,5 @@
 """
-
+The TreeWithoutParent class is a simple representation of a node in a binary tree where each node contains an element and may have left and right child nodes. The class does not keep a reference to a parent node, hence the name TreeWithoutParent.
 """
 
 
