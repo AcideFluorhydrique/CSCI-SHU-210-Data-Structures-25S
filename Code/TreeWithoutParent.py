@@ -1,3 +1,9 @@
+"""
+
+"""
+
+
+
 class TreeWithoutParent:
     def __init__(self, element, left = None, right = None):
         self._element = element
