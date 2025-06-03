@@ -1,5 +1,5 @@
 
-"""The BinaryTreeSearchWithoutPosition class models a binary search tree structure, where each node of the tree can have up to two children (left and right), a parent, and contains an element. 
+"""The BinaryTreeSearchWithoutPosition class models a binary search tree structure, where each node of the tree can have up to two children (left and right), a parent, and contains an element. """
 
 class BinaryTreeWithoutPosition:
     class TreeNode:
