@@ -6,6 +6,7 @@ where each node of the tree can have up to two children (left and right), a pare
 class BinaryTreeWithoutPosition:
     class TreeNode:
         def __init__(self, element, parent=None, left=None, right=None):
+            
             self._parent = parent
             self._element = element
             self._left = left
@@ -37,7 +38,8 @@ class BinaryTreeWithoutPosition:
         if self.is_root(node):
             return 0
         else:
-            return 1 + self.depth(self.parent(node))
+            d = 1 + self.depth(self.parent(node))
+            return d
 
     def _height1(self):
         return max(self.depth(node) for node in self.nodes() if self.is_leaf(node))
