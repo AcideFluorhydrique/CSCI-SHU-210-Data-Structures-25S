@@ -374,12 +374,12 @@ class BinarySearchTree(Tree):
             
             else:
 
-                if node._left is not None:
+                if node._left:
                     lh = helper(node._left)
                 else:
                     lh = -1
 
-                if node._right is not None:
+                if node._right:
                     rh = helper(node._right)
                 else:
                     rh = -1
