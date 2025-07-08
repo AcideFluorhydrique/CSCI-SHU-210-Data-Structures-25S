@@ -4,7 +4,6 @@ implementation of a dynamic array in Python,
 similar to Python's built-in list but with explicit 
 control over underlying array storage and resizing logic. 
 """
-
 import ctypes
 
 class UserDefinedDynamicArray:
